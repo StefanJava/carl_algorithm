@@ -1,5 +1,9 @@
 package com.stefan.array.practice20220505;
 
+/**
+ * 704.给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，
+ * 写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
+ */
 public class SearchNumber {
     public static void main(String[] args) {
         int[] arr = {-100, -99, -10, -1, 0, 1, 10, 21, 32, 99, 100};
