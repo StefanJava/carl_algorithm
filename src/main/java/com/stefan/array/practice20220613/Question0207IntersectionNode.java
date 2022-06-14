@@ -45,11 +45,13 @@ public class Question0207IntersectionNode {
 
         if (subLen > 0) {
             while (subLen > 0) {
+                assert headA != null;
                 headA = headA.next;
                 subLen--;
             }
         } else {
             while (subLen < 0) {
+                assert headB != null;
                 headB = headB.next;
                 subLen++;
             }
