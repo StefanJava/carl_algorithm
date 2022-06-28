@@ -3,7 +3,6 @@ package com.stefan.array.proxy.dynamic.cglib;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
-import java.lang.invoke.MethodHandle;
 import java.lang.reflect.Method;
 
 public class MyMethodInterceptor implements MethodInterceptor {
